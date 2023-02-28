@@ -1,5 +1,6 @@
 import { createContext } from "react";
 import "./App.css";
+import Counter from "./lesson/Counter/Counter";
 // import FileA from './lesson/UseContext/FileA';
 import FileC from "./lesson/UseContext/FileC";
 
@@ -15,6 +16,8 @@ function App() {
           <FileC></FileC>{" "}
         </LastName.Provider>
       </FirstName.Provider>
+
+      <Counter></Counter>
     </div>
   );
 }
