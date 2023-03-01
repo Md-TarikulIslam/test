@@ -1,8 +1,8 @@
 import { createContext } from "react";
 import "./App.css";
 import Counter from "./lesson/Counter/Counter";
-// import FileA from './lesson/UseContext/FileA';
 import FileC from "./lesson/UseContext/FileC";
+import UseReducer from "./lesson/UseReducer/UseReducer";
 
 const FirstName = createContext();
 const LastName = createContext();
@@ -18,6 +18,7 @@ function App() {
       </FirstName.Provider>
 
       <Counter></Counter>
+      <UseReducer></UseReducer>
     </div>
   );
 }
